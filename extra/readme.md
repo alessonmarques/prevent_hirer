@@ -1,0 +1,6 @@
+- Ensure that u've already created the folder _(PUT_YOUR_PATH_HERE)_ and put the **execute.sh** there.
+- Modify the **execute.sh** and put the FILE path.
+- Add the cron using: 
+	- `crontab -e`
+- And add the code below overwriting with your paths.
+	- `* * * * * PUT_YOUR_PATH_HERE/executor.sh >> PUT_YOUR_PATH_HERE/data.log 2>&1`
